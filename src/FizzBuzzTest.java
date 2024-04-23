@@ -17,4 +17,19 @@ public class FizzBuzzTest {
     public void testConElNumero_3(){
         assertEquals("Fizz", FizzBuzz.comprobarNumero(3));
     }
+
+    @Test
+    public void testConElNumero_4(){
+        assertEquals("4", FizzBuzz.comprobarNumero(4));
+    }
+
+    @Test
+    public void testConElNumero_5(){
+        assertEquals("Buzz", FizzBuzz.comprobarNumero(5));
+    }
+
+    @Test
+    public void testConElNumero_6(){
+        assertEquals("Fizz", FizzBuzz.comprobarNumero(6));
+    }
 }
